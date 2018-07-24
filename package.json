@@ -1,0 +1,19 @@
+{
+  "name": "test-noauth-shs",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/arj03/test-noauth-shs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arj03/test-noauth-shs.git"
+  },
+  "dependencies": {
+    "pull-stream": "^3.6.8",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Anders Rune Jensen' <arj03@protonmail.ch>",
+  "license": "Beerware"
+}
